@@ -104,6 +104,7 @@
                         while (validation == true){  //validar se o id ja existe ou não
                             cout << "id:";
                             cin >> id;
+                            getchar();
 
                             for (int i = 0; i < qnt_ticket ; i++){
                                 if (id == ticket[i].id){
@@ -119,11 +120,13 @@
                     else{
                         cout << "id:";
                         cin >> id;
+
+                        getchar();
                     }
                     cout << "Departure city:";
-                    cin >> depCity;
+                    getline(cin, depCity);
                     cout << "Arrival city:";
-                    cin >> arrCity;
+                    getline(cin, arrCity);
                     cout << "departure time:" << endl;
                     cout << "hour(hh):";
                     cin >> hour;

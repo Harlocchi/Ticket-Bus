@@ -166,7 +166,7 @@
 
                        for(int i = 0; i < qnt_ticket ; i++){
 
-                        cout << "------------------------------------";
+                        cout << "-----------------------------------";
                         cout << endl;
                         cout << "id: " << ticket[i].id << endl;
                         cout << ticket[i].depCity << " ----> " << ticket[i].arrCity<< endl;
